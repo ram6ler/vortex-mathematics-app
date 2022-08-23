@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 20pt;
+}
+
+#container {
+    margin: 2%;
+    padding: 2%;
+    border-radius: 5pt;
+    box-shadow: 5pt 5pt 10pt rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: 55% auto;
+}
+
+canvas {
+    width: 100%;
+}
+
+.bottom {
+    border-top: 1pt solid gray;
+    padding-top: 3pt;
+    text-align: center;
+}
+
+.bottom img {
+    width: 30pt;
+    position: relative;
+    top: 10pt;
+}

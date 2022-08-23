@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vortex mathematics</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="controls">
+            <h1>Vortex mathematics</h1>
+            <p>This is a simple Dart app created to explore some of the
+                topics discussed in the
+                <em>Mathologer</em> YouTube video, <a
+                    href="https://youtu.be/6ZrO90AI0c8">
+                    Tesla's 3-6-9 and Vortex Math</a>.
+            </p>
+            <p>Path cycles are identified by repeatedly multiplying node indices
+                by the specified <em>multiplier</em> and then connecting them to
+                the result's remainder when divided by <em>modulus</em>.
+            </p>
+            <p>You can play with the values of these two parameters below.</p>
+            <div id="control-box">
+                <h2>Controls</h2>
+                <p>
+                <div class="label">Multiplier:</div>
+                <input id="multiplier" type="range" min="1" max="20" value="5">
+                <input id="multiplier-value" type="number" min="1" max="20"
+                    value="5">
+                </p>
+                <p>
+                <div class="label">Modulus:</div>
+                <input id="modulus" type="range" min="1" max="250" value="240">
+                <input id="modulus-value" type="number" min="1" max="250"
+                    value="240"></span>
+                </p>
+            </div>
+
+        </div>
+        <div id="output">
+
+        </div>
+    </div>
+    <div class="bottom"><img src="images/GitHub-Mark.png" width="30"><a
+            href="https://github.com/ram6ler/vortex-mathematics-app">Vortex
+            Mathematics App</a> / Richard
+        Ambler /
+        August 2022</p>
+    </div>
+
+    <script src="js/vortex.js"></script>
+</body>
